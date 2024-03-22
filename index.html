@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="data:,">
     <title>Document</title>
 </head>
 
@@ -55,13 +56,13 @@
             <h3>Olá</h3>
             <h1>Eu sou Daniel Harrison<br>Desenvolvedor Web<br></h1>
 
-            <p>Desenvolvedor full-stack em formação por meio do <a href="https://programadoresdoamanha.org/" style="color: orangered;" target="_blank">PdA</a>, atualmente  cursando engenharia da computação na Universidade Federal do Pará. Além de utilizar a tríade do front-end (HTML, CSS e JavaScript), também utilizo Java, Spring e PostgreSQL no desenvolvimento do backend. Só que dessa vez sem choque no sistema.</p>
+            <p>Desenvolvedor full-stack, atualmente cursando engenharia da computação na
+                Universidade Federal do Pará. Utilizo as principais tecnologias do front-end HTML, CSS e JavaScript, Typescript e React. Além disso, também
+                uso Java, Spring e PostgreSQL no desenvolvimento backend. Só que dessa vez sem choque no sistema.
+            </p>
 
             <div class="btn-box">
-                <button class="btn1">Contrate-me</button>
-            <a id="link-project" href="#project"><button class="btn2">Projetos</button></a>
-
-                
+                <a id="link-project" href="#project" class="btn1">Projetos</a>
             </div>
         </div>
         <div class="img-box">
@@ -69,18 +70,85 @@
         </div>
     </section>
 
-    <section class="project" id="project">
+    <section class="project finance" id="project">
+        <div class="project-img">
+            <div class="imgs">
+                <img src="imgs/finance.png" alt="Descrição da imagem">
+            </div>
+        </div>
+        <div class="project-content">
+            <h2 class="heading">Controle Financeiro<span></span></h2>
+            <span>HTML, CSS, JS e Chart.js</span>
+
+            <p>Site desenvolvido com o objetivo de ajudar você a fugir do serasa, através da organização de finanças com
+                detalhamento em gráficos e tabela. É totalmente responsivo, então podes usa-lo no celular ou computador.
+                <br>Atualmente estou fazendo uma nova versão do projeto com react e typescript.
+            </p>
+            <div class="link__project">
+                <a href="https://harrisondaniell.github.io/controle-financeiro/" target="_blank" class="btn2">
+                    Ver projeto
+                </a>
+                <a href="https://github.com/harrisondaniell/controle-financeiro/tree/main" class="icon" target="_blank">
+                    <span>
+                        <i class="fab fa-github fa-2x"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="project pc" id="project">
         <div class="project-img">
             <img src="imgs/project.png" alt="Descrição da imagem">
         </div>
         <div class="project-content">
-            <h2 class="heading">Projeto <span></span></h2>
-            <span>Computador Ideal</span>
-            <p>computador ideal é um site que está sendo desenvolvido com o propósito de facilitar a escolha do usuário na hora de montar um computador, ainda está em fase inicial.
-                <br>Atualmente estou implementando web-scraping para capturar preços em tempo real das lojas que vendem hardware no Brasil.</p>
-                <a href="https://computadorideal.site/" target="_blank" class="btn2">Ver projeto</a>
+            <h2 class="heading">Computador Ideal<span></span></h2>
+            <span>HTML, CSS E JS</span>
+            <p>Computador ideal é um site que está sendo desenvolvido com o propósito de facilitar a escolha do usuário
+                na hora de montar um computador.
+                <br>Atualmente estou refatorando com react e typescript e implementando web-scraping com java e
+                selenium para capturar preços em tempo real das lojas que vendem
+                hardware no Brasil.
+            </p>
+            <div class="link__project">
+                <a href="https://harrisondaniell.github.io/controle-financeiro/" target="_blank" class="btn2">
+                    Ver projeto
+                </a>
+                <a href="https://github.com/harrisondaniell/computador-ideal" class="icon" target="_blank">
+                    <span>
+                        <i class="fab fa-github fa-2x"></i>
+                    </span>
+                </a>
+            </div>
+
         </div>
     </section>
+    <section class="project quiz" id="project">
+        <div class="project-img">
+            <img src="imgs/quiz.png" alt="Descrição da imagem">
+        </div>
+        <div class="project-content">
+            <h2 class="heading">Quiz App <span></span></h2>
+            <span>HTML, CSS E JS</span>
+            <p>Quizz app feito em javascript puro, contém recursos de embaralhamento de questões e alternativas,
+                exclusão de alternativa aleatória, diversos detalhes que melhoram a experiência do usuário, além de ser
+                totalmente responsivo.
+                <br>Projeto finalizado.
+            </p>
+
+            <div class="link__project">
+                <a href="https://quizappharrison.netlify.app/" target="_blank" class="btn2">Ver projeto</a>
+                <a href="https://github.com/harrisondaniell/quizzapp" class="icon" target="_blank">
+                    <span>
+                        <i class="fab fa-github fa-2x"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./js/main.js"></script>
 
 </body>
 
